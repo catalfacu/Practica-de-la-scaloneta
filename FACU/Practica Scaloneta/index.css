@@ -8,15 +8,20 @@ h1{
     display:flex;
     justify-content:center;
     color:goldenrod;
+    border: 5px goldenrod solid;
+    border-radius:1rem 0;
+    margin-left: 5%;
+    margin-right:5%; 
 }
 .categorias{
     display:flex;
     justify-content: space-around;
+    
 }
 
 .fotos-jugadores{
     display:flex; 
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 img{
     width:350px;
@@ -24,6 +29,7 @@ img{
     margin:5%;
     margin-top:0px;
     border: solid goldenrod 5px;
+    border-radius:1rem 0;
 }
 .nombres{
    display:flex;
@@ -40,12 +46,12 @@ h3{
     justify-content: center;
 }
 .fasedegrupos{
-    width:400px;
-    height:300px;
+    width:600px;
+    height:400px;
 }
 .faseeliminatoria{
-    width:400px;
-    height:300px;
+    width:600px;
+    height:400px;
     margin-top: 1%
 }
 #elcamino{
@@ -53,4 +59,29 @@ h3{
     flex-direction: column;
     align-items: center;
 }
+.lafinal{
+    width:700px;
+    height:500px;
+}
 
+.Final{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.penales{
+    width:700px;
+    height:450px;
+    margin-top:3%;
+}
+.lospenales{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+.losfestejos{
+    width:510px;
+    height:400px;
+}
